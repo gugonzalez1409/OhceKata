@@ -12,3 +12,6 @@ class OhceKata:
             return f"¡Buenos dias {self.nombre}!"
         else:
             return f"¡Buenas tardes {self.nombre}!"
+
+    def invertir_palabra(self, input):
+        return input[::-1]
