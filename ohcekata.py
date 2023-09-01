@@ -15,3 +15,9 @@ class OhceKata:
 
     def invertir_palabra(self, input):
         return input[::-1]
+    
+    def palindromo(self, input):
+        input_invertido = input[::-1]
+        if(input == input_invertido):
+            return f"{input_invertido}\n¡Bonita palabra!"
+        return input_invertido
