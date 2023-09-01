@@ -21,3 +21,7 @@ class OhceKata:
         if(input == input_invertido):
             return f"{input_invertido}\n¡Bonita palabra!"
         return input_invertido
+    
+    def stop(self, input):
+        if(input == "Stop!"):  
+            return f"Adios {self.nombre}"

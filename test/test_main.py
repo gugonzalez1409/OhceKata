@@ -12,4 +12,8 @@ class TestOhceKata(unittest.TestCase):
 
     def test_palindromo(self):
         kata = OhceKata("Richard")
-        self.assertEqual(kata.palindromo("ana"), "ana\n¡Bonita palabra!")        
+        self.assertEqual(kata.palindromo("ana"), "ana\n¡Bonita palabra!")
+
+    def test_stop(self):
+        kata = OhceKata("Eli")
+        self.assertEqual(kata.stop("Stop!"), "Adios Eli")            
